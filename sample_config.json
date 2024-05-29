@@ -1,0 +1,6 @@
+{
+	"debug": false,
+	"webhook": "https://discord.com/api/webhooks/xxx/xxx",
+	"board": "biz",
+	"delay": 60000
+}
