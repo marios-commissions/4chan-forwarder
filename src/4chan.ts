@@ -68,7 +68,7 @@ export async function getContentFromComment(thread: Thread) {
 
 export async function getThreadURL(board: string, thread: Thread) {
 	console.log(thread);
-	return `https://i.4cdn.org/${board}/thread/${thread.no}/`;
+	return `https://boards.4chan.org/${board}/thread/${thread.no}/`;
 }
 
 export async function getFileFromComment(board: string, thread: Thread): Promise<File> {
